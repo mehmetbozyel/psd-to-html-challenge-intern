@@ -10,7 +10,7 @@
 
     <style media="screen">
       body {
-        text-align: center;
+        text-align: left;
       }
       .row {
         margin-bottom: 2rem;
@@ -20,14 +20,24 @@
         background-color: red;
         color: white;
       }
+      .text-block {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
     </style>
 
     <title>GLOBAL BUSINESS</title>
   </head>
   <body>
-    <div style="margin-bottom: 0; background-color: red; padding: 5px;"> </div>
+    <div style="margin: 0; background-color: red; padding: 5px;"> </div>
 
-    <nav class="navbar navbar-expand-sm bg-white navbar-white">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
       <a class="navbar-brand" href="#">GLOBAL BUSINESS</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -47,40 +57,88 @@
       </div>
     </nav>
 
-    <img src="/src/kapak.png" alt="" class="">
+    <img src="/src/kapak.png" alt="" class="img-fluid">
+
+    <div class="container">
+      <div class="row justify-content-around">
+
+        <div class="col">
+          <img src="/src/ourbusiness1.png" alt="" class="img-fluid m-3">
+          <div class="text-block">
+            <h4>Our Business Notes</h4>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="/src/ourbusiness2.png" alt="" class="img-fluid m-3">
+          <div class="text-block">
+            <h4>Our Business Notes</h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-12" style="background-color: red; color: white; padding: 5px;">
+      <h2>ABOUT OUR COMANIES TEMPLATES</h2>
+      <p class="text-left">There are many variations of passages of Lorem Ipsum available,
+        but the majority have suffered alteration in some form, by injected humour,
+        or randomised words which do</p>
+    </div>
 
     <div class="container" >
       <div class="row">
+
         <div class="col-12">
-          <img src="/src/row1_1.png" alt="" class="float-left m-3">
-          <h3>Lorem Ipsum</h3>
-          <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <button type="button" class="btn float-left">Read More</button>
+          <div class="row">
+            <div class="col">
+              <img src="/src/row1_1.png" alt="" class="img-fluid">
+            </div>
+            <div class="col">
+              <h3>Lorem Ipsum</h3>
+              <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <button type="button" class="btn float-left">Read More</button>
+            </div>
+          </div>
         </div>
 
         <div class="col-12">
-          <img src="/src/row1_2.png" alt="" class="float-left m-3">
-          <h3>Lorem Ipsum</h3>
-          <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <button type="button" class="btn float-left">Read More</button>
+          <div class="row">
+            <div class="col">
+              <img src="/src/row1_2.png" alt="" class="img-fluid">
+            </div>
+            <div class="col">
+              <h3>Lorem Ipsum</h3>
+              <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <button type="button" class="btn float-left">Read More</button>
+            </div>
+          </div>
         </div>
+
         <div class="col-12">
-          <img src="/src/row1_3.png" alt="" class="float-left m-3">
-          <h3>Lorem Ipsum</h3>
-          <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <button type="button" class="btn float-left">Read More</button>
+          <div class="row">
+            <div class="col">
+              <img src="/src/row1_3.png" alt="" class="img-fluid">
+            </div>
+            <div class="col">
+              <h3>Lorem Ipsum</h3>
+              <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <button type="button" class="btn float-left">Read More</button>
+            </div>
+          </div>
         </div>
+
        </div>
       </div>
 
 
-      <div class="col-12" style="background-color: #265069; color: white; padding: 5px;">
+      <div class="col-12" style="background-color: #265069; color: white; padding: 5px; margin-bottom: 15px;">
         <h2>BEST BUSINESS EMAIL TEMPLATE</h2>
         <p class="text-left">There are many variations of passages of Lorem Ipsum available,
           but the majority have suffered alteration in some form, by injected humour,
@@ -89,22 +147,25 @@
 
       <div class="row justify-content-around">
         <div class="col-4">
-          <img src="/src/row2_1.png" alt="" class="float m-3">
+          <img src="/src/row2_1.png" alt="" class="img-fluid">
           <h3>Lorem Ipsum</h3>
           <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard dummy text ever</p>
+            <button type="button" class="btn float-left">Read More</button>
         </div>
         <div class="col-4">
-          <img src="/src/row2_2.png" alt="" class="float m-3">
+          <img src="/src/row2_2.png" alt="" class="img-fluid">
           <h3>Lorem Ipsum</h3>
           <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard dummy text ever</p>
+            <button type="button" class="btn float-left">Read More</button>
         </div>
         <div class="col-4">
-          <img src="/src/row2_3.png" alt="" class="float m-3">
+          <img src="/src/row2_3.png" alt="" class="img-fluid">
           <h3>Lorem Ipsum</h3>
           <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard dummy text ever</p>
+            <button type="button" class="btn float-left">Read More</button>
         </div>
       </div>
 
