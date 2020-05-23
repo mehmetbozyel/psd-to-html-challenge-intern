@@ -1,0 +1,42 @@
+body {
+  text-align: left;
+}
+.row {
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #ed0f0f;
+  color: white;
+  border-radius: 0px;
+}
+.btn:hover {
+  color: white;
+  background-color: #ff7066;
+}
+.footer-text {
+  color: white;
+}
+
+.nav-link {
+  color: #2c4655;
+}
+
+.nav-link:hover {
+  color:#ed0f0f;
+  text-decoration: underline;
+}
+
+.footer-text:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
